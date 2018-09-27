@@ -1,0 +1,39 @@
+.container .layout h3 {
+    font-family: 'Montserrat-Regular';
+    font-size: 17px!important;
+    color: #99A8AD!important;
+    line-height: 26px;
+    margin-left: 10px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: 30px
+}
+.container .layout h3 img {
+    vertical-align: bottom;
+    margin-right: 15px
+}
+.container.grid-list-lg {
+    padding: 30px;
+}
+.layout-current .c-danger .danger-val {
+    color: red!important
+}
+.layout-current .c-danger .headline {
+    color: red;
+}
+.layout-current .c-warning .danger-val {
+    color: orange!important
+}
+.layout-current .c-warning .headline {
+    color: orange;
+}
+.layout-current .info-col .info-val {
+    padding-right: 10px;    
+}
+.layout-current .info-col .info-val .sprint {
+    width: 23px;
+    height: 22px;    
+}
+.layout-current .info-col {
+    margin-bottom: 10px;
+}

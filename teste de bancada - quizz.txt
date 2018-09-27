@@ -1,0 +1,35 @@
+Tabela do quiz
+
+Muito atraente vale +25 Pontos
+Pouco atraente vale 0
+
+Nível A - pontuação inicial: 0 Pontos
+1 | +25 Pontos
+2 | +25 Pontos
+3 | 0 Pontos
+4 | +25 Pontos
+
+Total do nível A - 75 Pontos
+
+Nível B
+5 | +25 Pontos
+6 | 0 Pontos
+7 | 0 Pontos
+8 | +25 Pontos
+
+Total do nível B - 50 Pontos
+
+Nível C
+9  | +33 Pontos
+10 | +33 Pontos
+11 | +33 Pontos
+
+Total do nível C - 99 Pontos
+
+=============================
+
+Resultado final
+
+1º Colocado: Nível C - 99 Pontos
+2º Colocado: Nível A - 75 Pontos
+3º Colocado: Nível B - 50 Pontos

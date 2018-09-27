@@ -1,0 +1,65 @@
+.content--wrap{
+    background: url(/static/img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.img-box {text-align: center}
+.btn--small {
+    font-size: 13px;
+    height: 45px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+section.login-box {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+}
+.centralize{
+    margin-left:auto;
+    margin-right:auto;
+}
+.card {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    margin-bottom: 15%
+}
+.img-box {
+    width: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 25px
+}
+.input-blue input{
+    border-color:#3399FF!important;
+    outline: none!important;
+    background: rgba(63, 169, 245, .2);
+    border-radius: 0;
+    border: 2px solid;
+    height: 3em;
+}
+.input-blue input:focus{box-shadow: none!important}
+.field:not(:last-child) {
+    margin-bottom: 15px;
+}
+.btn-blue {
+    background-color: #633B8F!important;
+    color: #fff!important;
+}
+.btn-lblue {
+    background-color: #29ABE2!important;
+    color: #fff!important;
+}
+.foot-row {
+    padding-bottom: 30px;
+}
+img.google-btn {
+    width: 70px;
+    margin-left: 1vw;
+    padding-top: 3px;
+}
