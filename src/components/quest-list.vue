@@ -650,16 +650,22 @@
                 window.location.href = '/solucoes-blended';
                 console.log(lvl3)
             }
-            if(this.lvl3 == this.lvl2 && this.lvl3 == this.lvl1){
+            if(this.lvl1 == this.lvl2 && this.lvl1 == this.lvl3){
                 window.location.href = '/solucoes-blended';
             }
-            if(this.lvl1 == this.lvl3 && this.lvl1 > this.lvl2 && this.lvl3 > this.lvl2 ){
+            if(this.lvl2 == this.lvl1 && this.lvl2 == this.lvl3){
                 window.location.href = '/solucoes-blended';
             }
-            if(this.lvl1 == this.lvl2 && this.lvl1 > this.lvl3 && this.lvl2 > this.lvl3 ){
+            if(this.lvl3 == this.lvl1 && this.lvl3 == this.lvl2){
+                window.location.href = '/solucoes-blended';
+            }            
+            if(this.lvl1 == this.lvl3 && this.lvl3 > this.lvl2){
+                window.location.href = '/solucoes-blended';
+            }
+            if(this.lvl1 == this.lvl2 && this.lvl2 > this.lvl3){
                 window.location.href = '/solucoes-digitais';
             }
-            if(this.lvl2 == this.lvl3 && this.lvl2 > this.lvl1 && this.lvl3 > this.lvl1 ){
+            if(this.lvl2 == this.lvl3 && this.lvl3 > this.lvl1){
                 window.location.href = '/solucoes-blended';
             }                        
         },
@@ -668,10 +674,16 @@
                 this.lvl3 += 0;
                 this.nota = ''
                 console.log('lvl3 = '+this.lvl3+' pontos')
-            }else{
+            }
+            if(nota === 'radio-2'){
                 this.lvl3 += 25;
                 this.nota = ''
                 console.log('lvl3 = +'+this.lvl3+' pontos')
+            }
+            else{
+                this.lvl3 += 0;
+                this.nota = ''
+                console.log('lvl3 = '+this.lvl3+' pontos')
             }
         },
         digital(nota){
@@ -679,10 +691,16 @@
                 this.lvl1 += 0;
                 this.nota = '';
                 console.log('lvl1 = '+this.lvl1+' pontos')
-            }else{
+            }
+            if(nota === 'radio-2'){
                 this.lvl1 += 25;
                 this.nota = '';
                 console.log('lvl1 = +'+this.lvl1+' pontos')
+            }            
+            else{
+                this.lvl1 += 0;
+                this.nota = '';
+                console.log('lvl1 = '+this.lvl1+' pontos')
             }
         },
         presencial(nota){
@@ -690,10 +708,16 @@
                 this.lvl2 += 0;
                 this.nota = '';
                 console.log('lvl2 = '+this.lvl2+' pontos')
-            }else{
+            }
+            if(nota === 'radio-2'){
                 this.lvl2 += 34;
                 this.nota = '';
                 console.log('lvl2 = +'+this.lvl2+' pontos')
+            }            
+            else{
+                this.lvl2 += 0;
+                this.nota = '';
+                console.log('lvl2 = '+this.lvl2+' pontos')
             }
         }
     }    
