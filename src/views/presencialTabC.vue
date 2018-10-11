@@ -4,15 +4,15 @@
             <h2>Academia Santander, uma parceria de sucesso</h2>
             <div class="tab-block">
                 <h4>O Desafio:</h4>
-                <p class="content"></p>
+                <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In facilisis vestibulum eros, sed gravida lectus tincidunt at.</p>
             </div>
             <div class="tab-block">
                 <h4>A solução:</h4>
-                <p class="content"></p>
+                <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In facilisis vestibulum eros, sed gravida lectus tincidunt at.</p>
             </div>
             <div class="tab-block">
                 <h4>Os resultados:</h4>
-                <p class="content-no-bottom"></p>
+                <p class="content-no-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In facilisis vestibulum eros, sed gravida lectus tincidunt at.</p>
                 <ul></ul>
                 <v-btn flat class="btn-next case">LEIA O CASE COMPLETO</v-btn>
             </div>            

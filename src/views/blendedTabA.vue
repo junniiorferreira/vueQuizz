@@ -6,31 +6,31 @@
         <v-expansion-panel-content>
             <div slot="header">Maior engajamento em função da variedade de conteúdos</div>
             <v-card>
-                <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
+                <v-card-text>O b-learning, usa uma infinidade de diferentes tipos de materiais: vídeos, áudios, apresentações visualmente aprimoradas, dentre várias outras ferramentas, o que ajuda a manter os alunos envolvidos e garante maior compreensão do conteúdo.</v-card-text>
             </v-card>
         </v-expansion-panel-content>
         <v-expansion-panel-content>
             <div slot="header">Alunos diferentes, estilos diferentes</div>
             <v-card>
-                <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
+                <v-card-text>Diversificar os métodos de ensino é uma boa maneira de abordar as questões que surgem quando se oferece um mesmo curso para uma grande quantidade de pessoas. Isso vale tanto no modelo tradicional de educação quanto no treinamento corporativo. O blended learning complementa ambos e garante uma aprendizagem mais personalizada, seja oferecendo a possibilidade de aprender a seu tempo (através da flexibilização de horários), seja através da construção de conteúdos customizados para atender necessidades especiais.</v-card-text>
             </v-card>
         </v-expansion-panel-content>
         <v-expansion-panel-content>
             <div slot="header">Avaliações e correções personalizadas</div>
             <v-card>
-                <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
+                <v-card-text>Os relatórios LMS são bons não apenas porque permitem uma representação gráfica da informação, mas também porque possibilitam uma visão geral do que os alunos estão fazendo e o quanto progrediram, por exemplo. O b-learning, ao propor diferentes métodos de aprendizagem e diferentes tipos de materiais, permite ao professor ajustes não apenas no conteúdo, mas também nas ênfases dadas a determinados canais, materiais e interações.</v-card-text>
             </v-card>
         </v-expansion-panel-content>
         <v-expansion-panel-content>
             <div slot="header">Feedback aprimorado</div>
             <v-card>
-                <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
+                <v-card-text>O feedback é muito importante, já que é o principal indicador do desempenho e do progresso dos alunos. Para os professores a aplicação de testes e questionários on-line, ou a análise de relatórios oferecidos pelo LMS, significa preservar tempo de aula – é avaliar mais e melhor com um investimento otimizado de recursos e tempo.</v-card-text>
             </v-card>
         </v-expansion-panel-content>
         <v-expansion-panel-content>
             <div slot="header">Transforma o aprendizado</div>
             <v-card>
-                <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
+                <v-card-text>A aprendizagem não pode ser vista como uma atividade sisuda e séria demais. Uma tendência, em especial,  é destaque quando pensamos numa construção engajadora do ensino: “Gamification”.</v-card-text>
             </v-card>
         </v-expansion-panel-content>                                              
     </v-expansion-panel>

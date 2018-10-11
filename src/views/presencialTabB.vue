@@ -4,7 +4,11 @@
             <h2>Conheça o Learning Experience</h2>
             <div class="tab-block">
                 <p class="content-no-bottom"></p>
-                <ul></ul>
+                <ul>
+                  <li>(não achei o artigo que corresponde a esse assunto)</li>
+                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                </ul>
                 <p class="content-no-bottom"></p>
             </div>            
         </div>

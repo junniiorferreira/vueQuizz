@@ -184,4 +184,96 @@ footer .social-box ul {
     font-size: 16px;
     font-family: 'roboto-bold';    
 }
+/*Inicio Mobile*/ 
+@media only screen and (min-width: 761px) {
+    .result-tabs.result-tabs-mobile {
+        display: none;
+    }
+    .result-tabs {
+        display: block;
+    }        
+} 
+@media only screen and (max-width: 760px) and (min-width: 320px)  {
+    .screen {
+        background-size: contain;
+    }
+    .screen .box-bg {
+        text-align: center;
+    }
+    .screen .box-bg .logo {
+        margin-left: 0;
+        margin-top: 5%;
+        width: 35%;
+    }
+    .box-result-title .result-title {
+        font-size: 20px!important;
+        padding-left: 7%;
+        padding-right: 7%;        
+    }
+    .box-result-title {
+        padding-top: 40px;
+        padding-bottom: 120px;
+    }
+    .box-resume h2 {
+        font-size: 15px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        line-height: 1.3em;
+    }     
+    .box-resume p {
+        font-size: 14px;
+        margin-bottom: 30px!important;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+    .result-tabs {
+        display: none;
+    }
+    .result-tabs.result-tabs-mobile {
+        display: block;
+    }    
+    .box-pos {
+        margin-top: 30px;
+        text-align: center;
+        font-size: 17px;
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .btn-next.result {
+        font-size: 13px;
+        width: 90%;
+    }    
+    footer .footer-box {
+        width: 100%;
+    } 
+    .footer-box .social-box p {
+        font-size: 15px;
+        padding-right: 0;
+        text-align: center;
+    }   
+    footer .social-box ul {
+        margin-left: auto;
+        text-align: center;
+        width: 170px;
+        margin-right: auto;
+    }       
+    .social-box ul li {
+        padding-left: 7px;
+        padding-right: 3px;
+    }
+    footer {
+        padding-bottom: 100px;
+    }   
+    footer span.copyr {
+        margin-top: 70px;
+        text-align: center;
+        width: 100%;
+        padding: 30px;
+        padding-top: 0;
+    }     
+}
+/*Final Mobile*/ 
 </style>

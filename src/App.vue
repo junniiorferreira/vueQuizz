@@ -5,16 +5,19 @@
       <h2>Seu desafio corporativo pode ser superado com <b>Soluções Digitais</b></h2>
       <p>Soluções digitais utilizam metodologias imersivas e garantem o aprendizado para um número alto de colaboradores, geralmente aplicada para realizar um overview.</p>
       <digitalTabs/>
+      <digitalTabsMobile/>
     </div>
     <div class="box-resume" v-if="solucoesPresenciais()">
       <h2>Seu desafio corporativo pode ser superado com <b>Soluções Presenciais</b></h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt rhoncus ex sit amet luctus. Vivamus tempor, odio ac tristique pellentesque, tortor urna finibus orci, facilisis sagittis nisl enim in augue. Integer sed mauris elit.</p>
       <presencialTabs/>
+      <presencialTabsMobile/>
     </div>
     <div class="box-resume" v-if="solucoesBlended()">
       <h2>Seu desafio corporativo pode ser superado com <b>Soluções Blended</b></h2>
       <p>O blended learning pode oferecer novas oportunidades de aprendizagem, além de permitir combinar diversas abordagens em um mesmo plano educacional, garantindo um ensino compartilhado e customizado para atender as reais necessidades de cada projeto</p>
       <blendedTabs/>
+      <blendedTabsMobile/>
     </div>        
     <div class="box-pos" v-if="solucoesDigitais() || solucoesBlended() || solucoesPresenciais()">
       <p>Se você ainda tem dúvidas sobre qual o modelo mais vantajoso, solicite uma conversa com nossos especialistas em capacitação corporativa</p>
@@ -47,8 +50,11 @@ import linkedinLogo from '@/assets/img/linkedinLogo.png'
 import instaLogo from '@/assets/img/instaLogo.png'
 import mailLogo from '@/assets/img/mailLogo.png'
 import digitalTabs from '@/components/digitalTabs.vue'
+import digitalTabsMobile from '@/components/digitalTabsMobile.vue'
 import presencialTabs from '@/components/presencialTabs.vue'
+import presencialTabsMobile from '@/components/presencialTabsMobile.vue'
 import blendedTabs from '@/components/blendedTabs.vue'
+import blendedTabsMobile from '@/components/blendedTabsMobile.vue'
 
 export default {
   components: {
@@ -58,8 +64,11 @@ export default {
     instaLogo,
     mailLogo,
     digitalTabs,
+    digitalTabsMobile,
     presencialTabs,
-    blendedTabs
+    presencialTabsMobile,
+    blendedTabs,
+    blendedTabsMobile
   },
   data () {
     return {

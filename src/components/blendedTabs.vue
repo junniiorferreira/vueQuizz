@@ -41,7 +41,7 @@
                 <blendedTabC/>
             </v-tab-item>                        
         </v-tabs-items>
-    </div>    
+    </div>
 </template>
 
 <script>

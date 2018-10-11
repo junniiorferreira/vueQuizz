@@ -27,13 +27,17 @@ export default {
 </script>
 
 <style>
+html {
+  background-color: #2b3361;
+}
 .screen{
   background: url(/static/img/bg-start.jpg);
   background-repeat: no-repeat;
-  background-size: cover
+  background-size: cover;
+  width: auto;
 }
 .screen .box-bg {
-  width: 380px;
+  width: 100%;
   /* margin-left: auto; */
   margin-right: auto;
   /* padding-top: 40px; */
@@ -47,5 +51,10 @@ export default {
 }
 .screen .box-init {
   padding-top: 300px;
+}
+.screen .box-bg .logo {
+  margin-left: 50px;
+  margin-top: 15px;
+  max-width: 60%;
 }
 </style>

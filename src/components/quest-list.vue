@@ -43,6 +43,13 @@
                     <vue-slider ref="slider2" v-bind="demo.demo2" v-model="demo.demo2.value"></vue-slider>    
                 </delay>
             </div>              -->
+            <div class="btn-row-mobile">
+                <v-btn
+                class="btn-return disabled"
+                disabled
+                flat><v-icon>arrow_back</v-icon></v-btn>
+                <v-btn flat class="btn-next" @click="digital(nota);e1 = 2"><v-icon>arrow_forward</v-icon></v-btn>            
+            </div>
             <div class="btn-row">
                 <v-btn
                 class="btn-return disabled"
@@ -85,6 +92,14 @@
                     </v-radio-group>
                 </v-layout>                
             </div>          
+            <div class="btn-row-mobile">
+                <v-btn
+                class="btn-return"
+                flat
+                @click="e1 = 1"
+                ><v-icon>arrow_back</v-icon></v-btn>
+                <v-btn flat class="btn-next" @click="digital(nota);e1 = 3"><v-icon>arrow_forward</v-icon></v-btn>            
+            </div>            
             <div class="btn-row">
                 <v-btn
                 class="btn-return"
@@ -130,6 +145,14 @@
                     </v-radio-group>
                 </v-layout>                
             </div>
+            <div class="btn-row-mobile">
+                <v-btn
+                class="btn-return"
+                flat
+                @click="e1 = 2"
+                ><v-icon>arrow_back</v-icon></v-btn>
+                <v-btn flat class="btn-next" @click="digital(nota);e1 = 4"><v-icon>arrow_forward</v-icon></v-btn>            
+            </div>            
             <div class="btn-row">
                 <v-btn
                 class="btn-return"
@@ -175,6 +198,14 @@
                     </v-radio-group>
                 </v-layout>                
             </div>
+            <div class="btn-row-mobile">
+                <v-btn
+                class="btn-return"
+                flat
+                @click="e1 = 3"
+                ><v-icon>arrow_back</v-icon></v-btn>
+                <v-btn flat class="btn-next" @click="digital(nota);e1 = 5"><v-icon>arrow_forward</v-icon></v-btn>            
+            </div>            
             <div class="btn-row">
                 <v-btn
                 class="btn-return"
@@ -220,6 +251,14 @@
                     </v-radio-group>
                 </v-layout>                
             </div>
+            <div class="btn-row-mobile">
+                <v-btn
+                class="btn-return"
+                flat
+                @click="e1 = 4"
+                ><v-icon>arrow_back</v-icon></v-btn>
+                <v-btn flat class="btn-next" @click="digital(nota);e1 = 6"><v-icon>arrow_forward</v-icon></v-btn>            
+            </div>            
             <div class="btn-row">
                 <v-btn
                 class="btn-return"
@@ -265,6 +304,14 @@
                     </v-radio-group>
                 </v-layout>                
             </div>
+            <div class="btn-row-mobile">
+                <v-btn
+                class="btn-return"
+                flat
+                @click="e1 = 5"
+                ><v-icon>arrow_back</v-icon></v-btn>
+                <v-btn flat class="btn-next" @click="digital(nota);e1 = 7"><v-icon>arrow_forward</v-icon></v-btn>            
+            </div>            
             <div class="btn-row">
                 <v-btn
                 class="btn-return"
@@ -310,6 +357,14 @@
                     </v-radio-group>
                 </v-layout>                
             </div>
+            <div class="btn-row-mobile">
+                <v-btn
+                class="btn-return"
+                flat
+                @click="e1 = 6"
+                ><v-icon>arrow_back</v-icon></v-btn>
+                <v-btn flat class="btn-next" @click="digital(nota);e1 = 8"><v-icon>arrow_forward</v-icon></v-btn>            
+            </div>            
             <div class="btn-row">
                 <v-btn
                 class="btn-return"
@@ -355,6 +410,14 @@
                     </v-radio-group>
                 </v-layout>                
             </div>
+            <div class="btn-row-mobile">
+                <v-btn
+                class="btn-return"
+                flat
+                @click="e1 = 7"
+                ><v-icon>arrow_back</v-icon></v-btn>
+                <v-btn flat class="btn-next" @click="digital(nota);e1 = 9"><v-icon>arrow_forward</v-icon></v-btn>            
+            </div>            
             <div class="btn-row">
                 <v-btn
                 class="btn-return"
@@ -400,6 +463,14 @@
                     </v-radio-group>
                 </v-layout>                
             </div>
+            <div class="btn-row-mobile">
+                <v-btn
+                class="btn-return"
+                flat
+                @click="e1 = 8"
+                ><v-icon>arrow_back</v-icon></v-btn>
+                <v-btn flat class="btn-next" @click="digital(nota);e1 = 10"><v-icon>arrow_forward</v-icon></v-btn>            
+            </div>            
             <div class="btn-row">
                 <v-btn
                 class="btn-return"
@@ -445,6 +516,14 @@
                     </v-radio-group>
                 </v-layout>                
             </div>
+            <div class="btn-row-mobile">
+                <v-btn
+                class="btn-return"
+                flat
+                @click="e1 = 9"
+                ><v-icon>arrow_back</v-icon></v-btn>
+                <v-btn flat class="btn-next" @click="digital(nota);e1 = 11"><v-icon>arrow_forward</v-icon></v-btn>            
+            </div>            
             <div class="btn-row">
                 <v-btn
                 class="btn-return"
@@ -490,6 +569,14 @@
                     </v-radio-group>
                 </v-layout>                
             </div>
+            <div class="btn-row-mobile">
+                <v-btn
+                class="btn-return"
+                flat
+                @click="e1 = 10"
+                ><v-icon>arrow_back</v-icon></v-btn>
+                <v-btn flat class="btn-next result" @click="presencial(nota);endQuiz()"><v-icon>arrow_forward</v-icon></v-btn>            
+            </div>            
             <div class="btn-row">
                 <v-btn
                 class="btn-return"
@@ -563,6 +650,18 @@
                 window.location.href = '/solucoes-blended';
                 console.log(lvl3)
             }
+            if(this.lvl3 == this.lvl2 && this.lvl3 == this.lvl1){
+                window.location.href = '/solucoes-blended';
+            }
+            if(this.lvl1 == this.lvl3 && this.lvl1 > this.lvl2 && this.lvl3 > this.lvl2 ){
+                window.location.href = '/solucoes-blended';
+            }
+            if(this.lvl1 == this.lvl2 && this.lvl1 > this.lvl3 && this.lvl2 > this.lvl3 ){
+                window.location.href = '/solucoes-digitais';
+            }
+            if(this.lvl2 == this.lvl3 && this.lvl2 > this.lvl1 && this.lvl3 > this.lvl1 ){
+                window.location.href = '/solucoes-blended';
+            }                        
         },
         blended(nota){
             if(nota === 'radio-1'){
@@ -687,7 +786,6 @@
     letter-spacing: 3px;
 }
 .btn-next .btn__content {
-    padding: 40px;
     height: auto;
     padding-bottom: 15px;
     padding-top: 15px;
@@ -701,10 +799,15 @@
     border: 1px solid #b1b1b1;
 }
 .btn-return.disabled{
-    opacity: 0.5
+    opacity: 0.5;
+    min-width: 60px;
+    min-height: 50px;    
+}
+.btn-return{
+    min-width: 60px;
+    min-height: 50px;    
 }
 .btn-return .btn__content {
-    padding: 40px;
     height: auto;
     padding-bottom: 15px;
     padding-top: 15px;
@@ -732,5 +835,91 @@
 }
 .flex-radio-left.flex.xs10 {
     position: absolute!important;
+}
+@media only screen and (max-width: 760px) {
+    .btn-row {
+        display: none;
+    }
+    .btn-return .btn__content {
+        padding: 0;
+    }    
+}
+@media only screen and (min-width: 761px) {
+    .btn-row-mobile {
+        display: none;
+    }    
+    .btn-return .btn__content {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .title-row .quest p {
+        font-size: 13px; 
+    }
+    .slider-row p, .slider-row span {
+        font-size: 13px;
+    }      
+   
+}
+@media only screen and (min-width: 481px) {
+    .title-row .quest p {
+        font-size: 17px; 
+    }
+    .slider-row p, .slider-row span {
+        font-size: 17px;
+    }
+    .btn-next .btn__content {
+        padding: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media only screen and (max-width: 760px) and (min-width: 320px)  {
+    .btn-next .btn__content {
+        padding: 0;
+    }     
+    .screen .stepper .title-row {
+        display: block;
+    }
+    .title-row .index {
+       text-align: center;
+    } 
+    .title-row .vertical-line {
+        width: 50px;
+        height: 4px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        background: #a59051;
+    }
+    .screen .stepper {
+        width: 100%;
+        margin-top: -55px;
+    }
+    .screen .stepper .mb-5.card.white {
+        padding: 15px;
+    }
+    .title-row .quest p {
+        line-height: 1.5em;
+        width: 100%;
+        text-align: center;
+    }
+    button.btn-next.btn.btn--flat {
+        min-width: 60px;
+        min-height: 50px;
+    }
+        
+    .layout.dark--text.row.wrap .flex.xs10 {
+        flex-basis: 60%;
+    }
+    .layout.dark--text.row.wrap .flex.flex-span-right.xs2 {
+        max-width: 40%;
+        flex-basis: 40%;        
+    }
+    .layout.row.wrap .input-group {
+        padding: 5px 0 0;
+    }     
 }
 </style>

@@ -30,6 +30,12 @@
 .tabs__content .card .tab-content {
     padding: 40px;
 }
+.carousel__controls__item {
+    color: #bbbbbb!important;
+}
+.carousel__left .btn, .carousel__right .btn {
+    color: #bbbbbb!important;
+}
 .tab-content h2 {
     font-family: 'roboto-light';
     color: #666666;

@@ -3,7 +3,7 @@
         <div class="tab-content">
             <h2>Ainda vale a pena fazer um curso presencial?</h2>
             <div class="tab-block">
-                <p class="content-no-bottom">O curso presencial é a forma mais tradicional de aprender e, mesmo com o surgimento de novas tecnologias, ele ainda tem suas vantagens:</p>
+                <p class="content-no-bottom">O ensino presencial promove um aprendizado mais específico dentro do programa de educação das empresas. Esse método ainda é muito utilizado na aplicação de técnicas operacionais mais específicas ou mesmo para que o colaborador conheça de perto a empresa e os trabalhos executados pelas diversas áreas</p>
                 <ul>
                     <li>Em sala de aula, compartilhamos experiências, construímos amizades, descobrimos oportunidades de emprego e negócios. Nesse sentido, a hora do cafezinho pode vir acompanhada de benefícios para vida pessoal e profissional.</li>
                     <li>O contato direto com o professor muitas vezes facilita o aprendizado. Isso porque alguns alunos dependem dos debates e das perguntas feitas em sala de aula para compreender a matéria de forma adequada.</li>

@@ -5,24 +5,24 @@
             <v-carousel-item
             reverse-transition="fade"
             transition="fade"
-            ><blendedTemplate/></v-carousel-item>
+            ><blendedTemplate1/></v-carousel-item>
             <v-carousel-item
             reverse-transition="fade"
             transition="fade"
-            ><blendedTemplate/></v-carousel-item>
-            <v-carousel-item
-            reverse-transition="fade"
-            transition="fade"
-            ><blendedTemplate/></v-carousel-item>                        
+            ><blendedTemplate2/></v-carousel-item>                     
         </v-carousel>
     </v-card>
 </template>
 
 <script>
-  import blendedTemplate from '@/components/blendedTemplate.vue'
+  import blendedTemplate1 from '@/components/blendedTemplate1.vue'
+  import blendedTemplate2 from '@/components/blendedTemplate2.vue'
+  // import blendedTemplate from '@/components/blendedTemplate.vue'
   export default {
     components:{
-      blendedTemplate
+      // blendedTemplate
+      blendedTemplate1,
+      blendedTemplate2
     },   
     data () {
       return {
@@ -44,11 +44,17 @@
   right: 40%;
 }
 .carousel__left, .carousel__right {
-  bottom: 0!important;
+  bottom: 30px!important;
   top: unset!important;
   z-index: 2;
 }
+/* .carousel__controls {
+  background: transparent;
+  bottom: 50px;
+} */
 .carousel__controls {
   background: transparent;
+  bottom: 30px;
+  padding-top: 5px;
 }
 </style>

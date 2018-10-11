@@ -102,4 +102,37 @@ export default {
   padding-right: 30px;
   letter-spacing: 3px;
 }
+@media only screen and (max-width: 480px) and (min-width: 320px)  {
+  .screen .box-bg {
+    width: 100%;
+    padding-top: 90px;
+  }
+  .screen .box-bg .logo {
+    margin-left: 100px;
+    margin-top: 0px;
+    width: 45%;
+  }
+  .screen .box-bg img {
+    position: absolute;
+    width: 70%;
+    margin-top: -35px;
+    margin-left: 55px;
+  }
+  .screen .box-init {
+    padding-top: 200px;
+  }
+  .screen .box-init h1 {
+    font-size: 22px;
+    width: 85%;
+  }
+  .screen .box-init h2 {
+    font-size: 14px;
+    line-height: 1.5em;
+    width: 85%;
+  }
+  .screen .box-btn {
+    padding-bottom: 30%;
+    margin-top: 20px;
+  }    
+}
 </style>
